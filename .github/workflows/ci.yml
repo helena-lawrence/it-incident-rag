@@ -27,7 +27,7 @@ jobs:
           pip install -r requirements.txt
           pip install pytest httpx
 
-      -      - name: Run automated tests
+                - name: Run automated tests
         env:
           PYTHONPATH: ${{ github.workspace }}/src
           RAG_API_KEY: "ci-test-key-not-for-production"
