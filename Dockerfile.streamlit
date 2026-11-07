@@ -1,0 +1,21 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+# Copy Python requirements
+COPY requirements.txt .
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy Streamlit application
+COPY src/frontend/ ./frontend/
+
+# Configure Python
+ENV PYTHONUNBUFFERED=1
+
+# Streamlit port
+EXPOSE 8501
+
+# Start Streamlit
+CMD ["streamlit", "run", "frontend/app.py", "--server.address=0.0.0.0", "--server.port=8501", "--server.headless=true"]

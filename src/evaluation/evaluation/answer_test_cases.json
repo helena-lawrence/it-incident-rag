@@ -1,0 +1,15 @@
+
+[
+  {
+    "question": "My VPN is not connecting. What should I do?",
+    "reference_answer": "Check the internet connection, restart the VPN client, verify login details and contact IT support if the issue continues."
+  },
+  {
+    "question": "I forgot my company password. How can I reset it?",
+    "reference_answer": "Follow the company's password reset procedure and contact IT support if the reset is unsuccessful."
+  },
+  {
+    "question": "Outlook is not receiving new emails. What should I do?",
+    "reference_answer": "Check the internet connection, restart Outlook and follow the company's email troubleshooting procedure."
+  }
+]

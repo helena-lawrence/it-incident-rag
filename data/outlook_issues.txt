@@ -1,0 +1,23 @@
+
+Title: Outlook Email Troubleshooting Guide
+Department: IT Application Support
+
+Problem:
+Employees cannot send or receive emails in Outlook.
+
+Common Causes:
+1. Internet connection problems.
+2. Outlook is working in offline mode.
+3. Mailbox storage is full.
+4. Outlook application needs an update.
+
+Troubleshooting Steps:
+1. Verify the internet connection.
+2. Check whether Outlook is in offline mode.
+3. Restart Outlook.
+4. Check available mailbox storage.
+5. Install pending Outlook updates.
+6. Contact IT Application Support if the issue continues.
+
+Incident Reference:
+INC-1003

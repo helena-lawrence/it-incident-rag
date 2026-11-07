@@ -1,0 +1,54 @@
+{
+    "total_questions": 3,
+    "average_scores_percent": {
+        "faithfulness": 100.0,
+        "relevance": 100.0,
+        "correctness": 100.0
+    },
+    "results": [
+        {
+            "question": "My VPN is not connecting. What should I do?",
+            "reference_answer": "Check the internet connection, restart the VPN client, verify login details and contact IT support if the issue continues.",
+            "generated_answer": "Based on the information provided, here are the troubleshooting steps to resolve the issue with your company's VPN:\n\n1. Check that the internet connection is working.\n2. Restart the VPN application.\n3. Verify the username and password.\n4. Check whether the VPN client requires an update.\n5. Restart the computer.\n6. If the issue continues, contact IT Network Support.\n\nIf the problem persists, please contact IT Network Support for further assistance.",
+            "sources": [
+                "vpn_troubleshooting.txt"
+            ],
+            "scores": {
+                "faithfulness": 2,
+                "relevance": 2,
+                "correctness": 2,
+                "reason": "The generated answer is faithful to the reference answer, which is provided in the retrieved context. The generated answer includes the same steps as the reference, but with slightly different wording and formatting."
+            }
+        },
+        {
+            "question": "I forgot my company password. How can I reset it?",
+            "reference_answer": "Follow the company's password reset procedure and contact IT support if the reset is unsuccessful.",
+            "generated_answer": "To reset your company password, follow these steps:\n\n1. Open the company password reset portal.\n2. Select \"Forgot Password.\"\n3. Enter your company email address.\n4. Complete the identity verification process.\n5. Create a new password.\n6. Sign in again using the new password.\n\nIf you are unable to access the password reset portal, try the following additional steps:\n\n1. Check that your internet connection is working.\n2. Restart the VPN application if you are using a virtual private network (VPN).\n3. Verify your username and password.\n4. Ensure that the VPN client is up to date.\n5. Restart your computer.\n6. If the issue persists, contact IT Network Support for further assistance.",
+            "sources": [
+                "password_reset.txt",
+                "vpn_troubleshooting.txt"
+            ],
+            "scores": {
+                "faithfulness": 2,
+                "relevance": 2,
+                "correctness": 2,
+                "reason": "The generated answer is faithful to the reference answer, as it provides the same steps for resetting the password. The generated answer also includes additional troubleshooting steps that are not explicitly stated in the reference answer but are relevant to the situation."
+            }
+        },
+        {
+            "question": "Outlook is not receiving new emails. What should I do?",
+            "reference_answer": "Check the internet connection, restart Outlook and follow the company's email troubleshooting procedure.",
+            "generated_answer": "Based on the retrieved documents, the steps to troubleshoot and resolve the issue of Outlook not receiving new emails are as follows:\n\n1. Verify the internet connection.\n2. Check whether Outlook is in offline mode.\n3. Restart Outlook.\n4. Check available mailbox storage.\n5. Install pending Outlook updates.\n6. Contact IT Application Support if the issue persists.\n\nIf the problem still persists, you can try the following additional steps:\n\n1. Check the email settings in Outlook to ensure that the email account is correctly configured.\n2. Verify that the email account is not marked as \"Not Safe for Work\" or \"Not Safe for Business\" in the company's email policy.\n3. Contact IT Application Support for further assistance.\n\nRemember to follow the troubleshooting steps in the order provided and to contact IT Application Support if the issue remains unresolved.",
+            "sources": [
+                "outlook_issues.txt",
+                "password_reset.txt"
+            ],
+            "scores": {
+                "faithfulness": 2,
+                "relevance": 2,
+                "correctness": 2,
+                "reason": "The generated answer is faithful to the retrieved context, directly addresses the question, and agrees with the reference answer."
+            }
+        }
+    ]
+}

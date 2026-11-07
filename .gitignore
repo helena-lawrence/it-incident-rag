@@ -1,0 +1,28 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local files
+logs/
+*.log
+.DS_Store
+
+# Model cache
+model_cache/
+.cache/
+
+# IDE
+.vscode/
+.idea/

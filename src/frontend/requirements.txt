@@ -1,0 +1,15 @@
+
+fastapi
+uvicorn
+pydantic
+python-dotenv
+requests
+streamlit
+qdrant-client
+sentence-transformers
+fastembed
+ollama
+langchain-text-splitters
+pypdf
+prometheus-client
+python-json-logger

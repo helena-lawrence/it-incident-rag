@@ -1,0 +1,26 @@
+
+Title: VPN Troubleshooting Guide
+Department: IT Network Support
+
+Problem:
+Employees cannot connect to the company VPN.
+
+Common Causes:
+1. Incorrect username or password.
+2. Internet connection is unavailable.
+3. VPN client is outdated.
+4. Company VPN server is temporarily unavailable.
+
+Troubleshooting Steps:
+1. Check that the internet connection is working.
+2. Restart the VPN application.
+3. Verify the username and password.
+4. Check whether the VPN client requires an update.
+5. Restart the computer.
+6. If the issue continues, contact IT Network Support.
+
+Incident Reference:
+INC-1001
+
+Error 809:
+If VPN Error 809 appears, contact the Network Support Team.

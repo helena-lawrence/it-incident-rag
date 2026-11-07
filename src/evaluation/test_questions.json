@@ -1,0 +1,27 @@
+
+[
+  {
+    "question": "My VPN is not connecting. What should I do?",
+    "relevant_sources": ["vpn_troubleshooting.txt"]
+  },
+  {
+    "question": "How can I troubleshoot VPN connection problems?",
+    "relevant_sources": ["vpn_troubleshooting.txt"]
+  },
+  {
+    "question": "I forgot my company password. How do I reset it?",
+    "relevant_sources": ["password_reset.txt"]
+  },
+  {
+    "question": "My account password has expired. What should I do?",
+    "relevant_sources": ["password_reset.txt"]
+  },
+  {
+    "question": "Outlook is not receiving new emails.",
+    "relevant_sources": ["outlook_issues.txt"]
+  },
+  {
+    "question": "How do I fix Outlook connection problems?",
+    "relevant_sources": ["outlook_issues.txt"]
+  }
+]
