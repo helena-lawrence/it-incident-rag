@@ -11,6 +11,10 @@ jobs:
   test-and-build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: read
+      packages: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -40,3 +44,23 @@ jobs:
 
       - name: Build Streamlit Docker image
         run: docker build -f Dockerfile.streamlit -t it-incident-rag-streamlit:ci .
+        
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push FastAPI Docker image
+        if: github.event_name != 'pull_request'
+        run: |
+          docker tag it-incident-rag-api:ci ghcr.io/helena-lawrence/it-incident-rag-api:latest
+          docker push ghcr.io/helena-lawrence/it-incident-rag-api:latest
+
+      - name: Push Streamlit Docker image
+        if: github.event_name != 'pull_request'
+        run: |
+          docker tag it-incident-rag-streamlit:ci ghcr.io/helena-lawrence/it-incident-rag-streamlit:latest
+          docker push ghcr.io/helena-lawrence/it-incident-rag-streamlit:latest
+
